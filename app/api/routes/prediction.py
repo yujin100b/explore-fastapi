@@ -1,10 +1,10 @@
 from fastapi import APIRouter, Depends
 from starlette.requests import Request
 
-from app.core import security
-from app.models.payload import HousePredictionPayload
-from app.models.prediction import HousePredictionResult
-from app.services.models import HousePriceModel
+from core import security
+from models.payload import HousePredictionPayload
+from models.prediction import HousePredictionResult
+from services.models import HousePriceModel
 
 router = APIRouter()
 

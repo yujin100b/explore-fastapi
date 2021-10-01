@@ -6,10 +6,10 @@ import joblib
 import numpy as np
 from loguru import logger
 
-from app.core.messages import NO_VALID_PAYLOAD
-from app.models.payload import (HousePredictionPayload,
+from core.messages import NO_VALID_PAYLOAD
+from models.payload import (HousePredictionPayload,
                                              payload_to_list)
-from app.models.prediction import HousePredictionResult
+from models.prediction import HousePredictionResult
 
 
 class HousePriceModel(object):

@@ -5,8 +5,8 @@ from typing import Callable
 from fastapi import FastAPI
 from loguru import logger
 
-from app.core.config import DEFAULT_MODEL_PATH
-from app.services.models import HousePriceModel
+from core.config import DEFAULT_MODEL_PATH
+from services.models import HousePriceModel
 
 
 def _startup_model(app: FastAPI) -> None:
